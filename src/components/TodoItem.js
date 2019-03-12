@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import PropTypes from 'prop-types'
 import { MdCheckBox, MdCheckBoxOutlineBlank } from 'react-icons/lib/md'
 
 class TodoItem extends Component {
@@ -20,7 +19,6 @@ class TodoItem extends Component {
   }
 
   render() {
-    var todoClass = this.props.item.done ? "done" : "undone";
     return (
       <li className="list-group-item">
         {this.props.item.done ? (
