@@ -2,6 +2,7 @@
   "name": "todo-jest",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://leeseoki.github.io/todo-app",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "node-sass": "^4.11.0",
@@ -16,6 +17,8 @@
     "build": "react-scripts build",
     "test": "jest",
     "test:update": "jest -u",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -30,6 +33,7 @@
   "devDependencies": {
     "babel-preset-env": "^1.7.0",
     "enzyme": "^3.9.0",
-    "enzyme-adapter-react-16": "^1.10.0"
+    "enzyme-adapter-react-16": "^1.10.0",
+    "gh-pages": "^2.0.1"
   }
 }
