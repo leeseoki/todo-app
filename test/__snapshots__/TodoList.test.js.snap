@@ -1,0 +1,295 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoList Component renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TodoList
+    items={
+      Array [
+        Object {
+          "done": false,
+          "id": 1,
+          "title": "eat",
+        },
+        Object {
+          "done": true,
+          "id": 2,
+          "title": "sleep",
+        },
+        Object {
+          "done": true,
+          "id": 3,
+          "title": "code",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <li
+          className="list-group-item active"
+        >
+          My Todo
+        </li>,
+        Array [
+          <TodoItem
+            id={0}
+            item={
+              Object {
+                "done": false,
+                "id": 1,
+                "title": "eat",
+              }
+            }
+          />,
+          <TodoItem
+            id={1}
+            item={
+              Object {
+                "done": true,
+                "id": 2,
+                "title": "sleep",
+              }
+            }
+          />,
+          <TodoItem
+            id={2}
+            item={
+              Object {
+                "done": true,
+                "id": 3,
+                "title": "code",
+              }
+            }
+          />,
+        ],
+      ],
+      "className": "list-group",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "My Todo",
+          "className": "list-group-item active",
+        },
+        "ref": null,
+        "rendered": "My Todo",
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "class",
+        "props": Object {
+          "id": 0,
+          "item": Object {
+            "done": false,
+            "id": 1,
+            "title": "eat",
+          },
+          "maskItemDone": undefined,
+          "removeItem": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "class",
+        "props": Object {
+          "id": 1,
+          "item": Object {
+            "done": true,
+            "id": 2,
+            "title": "sleep",
+          },
+          "maskItemDone": undefined,
+          "removeItem": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "class",
+        "props": Object {
+          "id": 2,
+          "item": Object {
+            "done": true,
+            "id": 3,
+            "title": "code",
+          },
+          "maskItemDone": undefined,
+          "removeItem": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <li
+            className="list-group-item active"
+          >
+            My Todo
+          </li>,
+          Array [
+            <TodoItem
+              id={0}
+              item={
+                Object {
+                  "done": false,
+                  "id": 1,
+                  "title": "eat",
+                }
+              }
+            />,
+            <TodoItem
+              id={1}
+              item={
+                Object {
+                  "done": true,
+                  "id": 2,
+                  "title": "sleep",
+                }
+              }
+            />,
+            <TodoItem
+              id={2}
+              item={
+                Object {
+                  "done": true,
+                  "id": 3,
+                  "title": "code",
+                }
+              }
+            />,
+          ],
+        ],
+        "className": "list-group",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "My Todo",
+            "className": "list-group-item active",
+          },
+          "ref": null,
+          "rendered": "My Todo",
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "class",
+          "props": Object {
+            "id": 0,
+            "item": Object {
+              "done": false,
+              "id": 1,
+              "title": "eat",
+            },
+            "maskItemDone": undefined,
+            "removeItem": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "class",
+          "props": Object {
+            "id": 1,
+            "item": Object {
+              "done": true,
+              "id": 2,
+              "title": "sleep",
+            },
+            "maskItemDone": undefined,
+            "removeItem": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "class",
+          "props": Object {
+            "id": 2,
+            "item": Object {
+              "done": true,
+              "id": 3,
+              "title": "code",
+            },
+            "maskItemDone": undefined,
+            "removeItem": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

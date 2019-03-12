@@ -1,0 +1,16 @@
+@import "./node_modules/bootstrap/scss/bootstrap";
+html,
+body,
+#root,
+.row {
+  height: 100%;
+}
+
+.badge {
+  float: right;
+}
+
+svg {
+  margin-right: 5px;
+  cursor: pointer;
+}
